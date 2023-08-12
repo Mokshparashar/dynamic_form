@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Baskerville", serif;
+  color: white;
+}
+
+.form1-container {
+  width: 50vw;
+  height: 50vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+input[type="number"] {
+  width: 60%;
+  height: 3rem;
+  outline: none;
+  border: 2px solid white;
+  color: white;
+  padding-left: 1rem;
+  font-weight: 800;
+  background-color: rgb(36, 44, 71);
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+input[type="text"] {
+  width: 60%;
+  height: 3rem;
+  outline: none;
+  border: 2px solid white;
+  color: white;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  font-weight: 800;
+  background-color: rgb(36, 44, 71);
+  border-radius: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+label:nth-child(1) {
+  border: 2px solid cyan;
+  position: relative;
+  top: 1rem;
+  padding: 0.5rem 0.8rem;
+  background-color: cyan;
+  color: black;
+}
+label:nth-child(1):hover {
+  border: 2px solid cyan;
+  position: relative;
+  top: 1rem;
+  padding: 0.5rem 0.8rem;
+  background-color: cyan;
+  cursor: pointer;
+  opacity: 0.8;
+  color: black;
+}
+label:nth-child(3) {
+  border: 2px solid rgb(55, 236, 112);
+  position: relative;
+  top: 1rem;
+  padding: 0.5rem 0.8rem;
+  background-color: rgb(55, 236, 112);
+  color: black;
+}
+label:nth-child(3):hover {
+  border: 2px solid rgb(55, 236, 112);
+  position: relative;
+  top: 1rem;
+  padding: 0.5rem 0.8rem;
+  background-color: rgb(55, 236, 112);
+  cursor: pointer;
+  color: black;
+}
+
+input[type="radio"] {
+  opacity: 0;
+}
+
+.btn {
+  background-color: black;
+}
+
+/* Form2 component */
+.Form2-container {
+  width: 40vw;
+  height: 20rem;
+  margin: auto;
+  text-align: center;
+}
+
+.Form2-container button {
+  background: none;
+  border: none;
+  color: pink;
+  text-decoration: underline;
+  cursor: pointer;
+  position: relative;
+  top: 1.5rem;
+}
+
+#age {
+  margin-top: 2rem;
+  position: relative;
+  left: 6rem;
+  top: 0;
+}
+
+.label-2 {
+  padding: 0.5rem 2rem;
+  border: 2px solid green;
+  position: relative;
+  top: 1rem;
+  display: block;
+}
+.label-1 {
+  padding: 0.5rem 2rem;
+  border: 2px solid green;
+  position: relative;
+  top: 1rem;
+  display: block;
+}
