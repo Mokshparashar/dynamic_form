@@ -48,6 +48,7 @@ const Form2 = () => {
           style={{ display: "block" }}
           value={age}
           onChange={(e) => setAge(e.target.value)}
+          placeholder='Enter your age'
         />
       )}
       <button className="btn" onClick={() => setShowFinal(true)}>
