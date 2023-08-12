@@ -125,6 +125,7 @@ input[type="radio"] {
   position: relative;
   top: 1rem;
   display: block;
+  cursor: pointer;
 }
 .label-1 {
   padding: 0.5rem 2rem;
