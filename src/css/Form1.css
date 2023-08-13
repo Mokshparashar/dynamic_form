@@ -25,7 +25,7 @@ input[type="number"] {
   font-weight: 800;
   background-color: rgb(36, 44, 71);
   font-size: 1.2rem;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 input[type="text"] {
   width: 60%;
@@ -37,7 +37,7 @@ input[type="text"] {
   padding-left: 1rem;
   font-weight: 800;
   background-color: rgb(36, 44, 71);
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 input::-webkit-outer-spin-button,
